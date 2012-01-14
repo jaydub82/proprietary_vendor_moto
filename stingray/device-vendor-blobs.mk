@@ -98,7 +98,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/stingray/proprietary/bootanimation-encrypted.zip:system/media/bootanimation-encrypted.zip \
     vendor/moto/stingray/proprietary/bootanimation.zip:system/media/bootanimation.zip \
     vendor/moto/stingray/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/moto/stingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin
+    vendor/moto/stingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin \
+    vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
+    vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
+    vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
 
 # All the apks necessary for stingray
 PRODUCT_PACKAGES += \
@@ -110,5 +113,7 @@ PRODUCT_PACKAGES += \
     MotoSimUiHelper \
     StingrayProgramMenu \
     StingrayProgramMenuSystem \
-    UsbHelper
+    UsbHelper \
+    VZWAPNLib \
+    VZWAPNService
 
