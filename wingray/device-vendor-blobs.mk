@@ -95,12 +95,9 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/bootanimation-encrypted.zip:system/media/bootanimation-encrypted.zip \
     vendor/moto/wingray/proprietary/bootanimation.zip:system/media/bootanimation.zip \
     vendor/moto/wingray/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/moto/wingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin
-
-# All the apks necessary for wingray
-PRODUCT_PACKAGES += \
-    MotoLocationProxy \
-    StingrayProgramMenu \
-    StingrayProgramMenuSystem \
-    UsbHelper
+    vendor/moto/wingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin \
+    vendor/moto/wingray/proprietary/MotoLocationProxy.apk:system/app/MotoLocationProxy.apk \
+    vendor/moto/wingray/proprietary/StingrayProgramMenu.apk:system/app/StingrayProgramMenu.apk \
+    vendor/moto/wingray/proprietary/StingrayProgramMenuSystem.apk:system/app/StingrayProgramMenuSystem.apk \
+    vendor/moto/wingray/proprietary/UsbHelper.apk:system/app/UsbHelper.apk
 

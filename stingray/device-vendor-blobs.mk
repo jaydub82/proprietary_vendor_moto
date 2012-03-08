@@ -99,19 +99,16 @@ PRODUCT_COPY_FILES += \
     vendor/moto/stingray/proprietary/bootanimation-encrypted.zip:system/media/bootanimation-encrypted.zip \
     vendor/moto/stingray/proprietary/bootanimation.zip:system/media/bootanimation.zip \
     vendor/moto/stingray/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/moto/stingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin
-
-# All the apks necessary for stingray
-PRODUCT_PACKAGES += \
-    AppDirectedSmsService \
-    MotoImsServer \
-    MotoLocationProxy \
-    MotoLteTelephony \
-    MotoModemUtil \
-    MotoSimUiHelper \
-    StingrayProgramMenu \
-    StingrayProgramMenuSystem \
-    UsbHelper \
-    VZWAPNLib \
-    VZWAPNService
+    vendor/moto/stingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin \
+    vendor/moto/stingray/proprietary/AppDirectedSmsService.apk:system/app/AppDirectedSmsService.apk \
+    vendor/moto/stingray/proprietary/MotoImsServer.apk:system/app/MotoImsServer.apk \
+    vendor/moto/stingray/proprietary/MotoLocationProxy.apk:system/app/MotoLocationProxy.apk \
+    vendor/moto/stingray/proprietary/MotoLteTelephony.apk:system/app/MotoLteTelephony.apk \
+    vendor/moto/stingray/proprietary/MotoModemUtil.apk:system/app/MotoModemUtil.apk \
+    vendor/moto/stingray/proprietary/MotoSimUiHelper.apk:system/app/MotoSimUiHelper.apk \
+    vendor/moto/stingray/proprietary/StingrayProgramMenu.apk:system/app/StingrayProgramMenu.apk \
+    vendor/moto/stingray/proprietary/StingrayProgramMenuSystem.apk:system/app/StingrayProgramMenuSystem.apk \
+    vendor/moto/stingray/proprietary/UsbHelper.apk:system/app/UsbHelper.apk \
+    vendor/moto/stingray/proprietary/VZWAPNLib.apk:system/app/VZWAPNLib.apk \
+    vendor/moto/stingray/proprietary/VZWAPNService.apk:system/app/VZWAPNService.apk
 
